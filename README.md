@@ -1,5 +1,5 @@
 # KOL_crawler
-This is crawl dataa from instagram and tiktok with list KOL/influencer
+This is crawl data from instagram and tiktok with list KOL/influencer
 
 ## Instagram:
 Using Instaloader.
@@ -13,6 +13,6 @@ first function to set limit post). Finally, with links in meta post send request
 
 To run: py main.py
 
-Let see: _https://instaloader.github.io/
+Let see: https://instaloader.github.io/
 
 ## TikTok
