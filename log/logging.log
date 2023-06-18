@@ -1,0 +1,8 @@
+2023-06-18 15:37:08,751 Starting new HTTPS connection (1): www.instagram.com:443
+2023-06-18 15:37:09,470 https://www.instagram.com:443 "GET /graphql/query?query_hash=d6f4427fbe92d846298cf93df0b937d3&variables=%7B%7D HTTP/1.1" 200 447
+2023-06-18 15:37:10,501 Starting new HTTPS connection (1): i.instagram.com:443
+2023-06-18 15:37:11,628 https://i.instagram.com:443 "GET /api/v1/users/web_profile_info/?username=hoaminzy_rose HTTP/1.1" 200 36232
+2023-06-18 15:37:16,514 Starting new HTTPS connection (1): www.instagram.com:443
+2023-06-18 15:37:17,272 https://www.instagram.com:443 "GET /graphql/query?query_hash=003056d32c2554def87228bc3fd9668a&variables=%7B%22id%22%3A2078808390%2C%22first%22%3A50%2C%22after%22%3A%22QVFBaDFraTRGd0FIYmN6Ml9oeTBZMFhYOUg4S2o1c1hCYmxrWGxXV1MwaHgwa05nSjVGbUphRjhmMm12dDMwZ2VLN1VDMkgtWTBLdDM2TVdOMlhaVUpTQg%3D%3D%22%7D HTTP/1.1" 401 98
+2023-06-18 15:37:17,728 https://www.instagram.com:443 "GET /graphql/query?query_hash=003056d32c2554def87228bc3fd9668a&variables=%7B%22id%22%3A2078808390%2C%22first%22%3A50%2C%22after%22%3A%22QVFBaDFraTRGd0FIYmN6Ml9oeTBZMFhYOUg4S2o1c1hCYmxrWGxXV1MwaHgwa05nSjVGbUphRjhmMm12dDMwZ2VLN1VDMkgtWTBLdDM2TVdOMlhaVUpTQg%3D%3D%22%7D HTTP/1.1" 401 98
+2023-06-18 15:37:22,325 https://www.instagram.com:443 "GET /graphql/query?query_hash=003056d32c2554def87228bc3fd9668a&variables=%7B%22id%22%3A2078808390%2C%22first%22%3A50%2C%22after%22%3A%22QVFBaDFraTRGd0FIYmN6Ml9oeTBZMFhYOUg4S2o1c1hCYmxrWGxXV1MwaHgwa05nSjVGbUphRjhmMm12dDMwZ2VLN1VDMkgtWTBLdDM2TVdOMlhaVUpTQg%3D%3D%22%7D HTTP/1.1" 401 98

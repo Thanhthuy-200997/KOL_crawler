@@ -1,0 +1,7 @@
+result: 
+    image: '../result/image/'
+    json: '../result/json/post_meta.json'
+data:
+    acc_KOL_insta: '../data/KOL_acc_insta.txt'
+template_json:
+    {'post_meta':[{'mediaid':'meta_id','uuid':'is','insta_url':'link post','post_date_local':'post_date','links':'link image','mtime':'time'}]} 
