@@ -1,7 +1,8 @@
 result: 
-    image: '../result/image/'
+    image: '../result/image_male/'
     json: '../result/json/post_meta.json'
 data:
     acc_KOL_insta: '../data/KOL_acc_insta.txt'
+    acc_KOL_tiktok: '../data/KOL_acc_tiktok.txt'
 template_json:
     {'post_meta':[{'mediaid':'meta_id','uuid':'is','insta_url':'link post','post_date_local':'post_date','links':'link image','mtime':'time'}]} 

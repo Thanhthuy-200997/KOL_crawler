@@ -17,4 +17,6 @@ def request_image(link, filename):
     if res.status_code == 200:
         with open(filename, 'wb') as f:
             f.write(res.content)
+    else:
+      pass
     return None
