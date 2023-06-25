@@ -1,5 +1,5 @@
 from utils.insta_crawl import *
-from utils.GetList_KOL_insta import *
+from utils.GetList_KOL import *
 from utils.Parse_metapost_insta import *
 import yaml
 import sys
@@ -27,14 +27,11 @@ path_KOL = cfg['data']['acc_KOL_insta']
 def main():
     try:
         ic = InstaCrawler()
-        lst_KOL_insta = load_list_KOL(path_KOL)
-        for KOL in lst_KOL_insta:
-        # for KOL in ['neyun.1']:
+        # lst_KOL_insta = load_list_KOL(path_KOL)
+        # for KOL in lst_KOL_insta:
+        for KOL in ['junpham']:
             print(f'Get profile {KOL}')
             profile = ic.get_profile(KOL)
-            # print(f'Download image for {KOL}. Please wait because time sleep form 1-2 minus for each request')
-            # ic.download_post(profile,dir_path)
-            # time.sleep(10*60)
             user_meta = ic.get_profile_meta(profile)
             post_meta  = ic.get_posts(profile,user_meta)
             print(f'Write post for {KOL}. Please wait!!!')
