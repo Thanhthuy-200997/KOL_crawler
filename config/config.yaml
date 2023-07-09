@@ -1,8 +1,17 @@
 result: 
     image: '../result/image_male/'
-    json: '../result/json/post_meta.json'
+    meta_post: '../result/json/post_meta.json'
+    video: '../result/video/'
+    meta_video: '../result/json/video_meta.json'
 data:
     acc_KOL_insta: '../data/KOL_acc_insta.txt'
     acc_KOL_tiktok: '../data/KOL_acc_tiktok.txt'
-template_json:
+template_image_json:
     {'post_meta':[{'mediaid':'meta_id','uuid':'is','insta_url':'link post','post_date_local':'post_date','links':'link image','mtime':'time'}]} 
+template_video_json:
+    {'video_meta':[{'account':'link account','fullname':'name','biography':'bio tiktok','following':'number of following','follower':'number of followe','metapost':'meta info'}]} 
+Gateway: 'https://www.tiktok.com'
+snaptik: 'https://snaptik.app'
+AWS_infor:
+    access_key_id: 'AKIA6GRD7GIVCHLEWG3Q'
+    access_key_secret: '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'
