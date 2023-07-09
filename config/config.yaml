@@ -13,5 +13,5 @@ template_video_json:
 Gateway: 'https://www.tiktok.com'
 snaptik: 'https://snaptik.app'
 AWS_infor:
-    access_key_id: 'AKIA6GRD7GIVCHLEWG3Q'
-    access_key_secret: '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'
+    access_key_id: ''
+    access_key_secret: ''
