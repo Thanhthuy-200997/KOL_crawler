@@ -1,6 +1,6 @@
 from utils.insta_crawl import *
 from utils.GetList_KOL import *
-from utils.Parse_metapost_insta import *
+from utils.save_metapost_insta import *
 import yaml
 import sys
 sys.path.append('../../')
@@ -21,15 +21,15 @@ logger.setLevel(logging.DEBUG)
 yaml_file = open("../config/config.yaml")
 cfg = yaml.load(yaml_file, Loader=yaml.FullLoader)
 img_path = cfg['result']['image']
-json_path = cfg['result']['json']
+json_path = cfg['result']['meta_post']
 path_KOL = cfg['data']['acc_KOL_insta']
 
 def main():
     try:
         ic = InstaCrawler()
-        # lst_KOL_insta = load_list_KOL(path_KOL)
-        # for KOL in lst_KOL_insta:
-        for KOL in ['junpham']:
+        lst_KOL_insta = load_list_KOL(path_KOL)
+        for KOL in lst_KOL_insta:
+        # for KOL in ['junpham']:
             print(f'Get profile {KOL}')
             profile = ic.get_profile(KOL)
             user_meta = ic.get_profile_meta(profile)
